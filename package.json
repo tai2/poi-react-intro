@@ -15,7 +15,7 @@
     "conditional-rendering-2": "poi lesson7/conditional-rendering-2.jsx --jsx react --open",
     "list-rendering": "poi lesson8/list-rendering.jsx --jsx react --open",
     "list-sorting": "poi lesson8/list-sorting.jsx --jsx react --open",
-    "react-redux": "poi lesson9/react-redux.jsx --jsx react --open"
+    "react-redux": "poi extra/react-redux.jsx --jsx react --open"
   },
   "keywords": [],
   "author": "tai2",

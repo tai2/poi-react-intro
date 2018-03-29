@@ -62,7 +62,7 @@ npm run conditional-rendering
 npm run list-rendering
 ```
 
-## Lesson 9: Reduxで状態を管理する
+## 番外編: Reduxで状態を管理する
 
 ```
 npm run react-redux
