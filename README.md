@@ -32,31 +32,37 @@ npm run first-component
 npm run passing-props
 ```
 
-## Lesson 4: CSSのクラスを指定する
+## Lesson 4: 子要素を渡す
+
+```
+npm run passing-children
+```
+
+## Lesson 5: CSSのクラスを指定する
 
 ```
 npm run stylesheet
 ```
 
-## Lesson 5: イベントを処理する
+## Lesson 6: イベントを処理する
 
 ```
 npm run event-handling
 ```
 
-## Lessen 6: コンポーネントに状態を保持する
+## Lessen 7: コンポーネントに状態を保持する
 
 ```
 npm run holding-state
 ```
 
-## Lessen 7: 条件に応じて表示する要素を変える
+## Lessen 8: 条件に応じて表示する要素を変える
 
 ```
 npm run conditional-rendering
 ```
 
-## Lesson 8: リストを表示する
+## Lesson 9: リストを表示する
 
 ```
 npm run list-rendering

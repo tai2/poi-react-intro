@@ -8,6 +8,7 @@
     "hello-world": "poi lesson1/hello-world.jsx --jsx react --open",
     "first-component": "poi lesson2/first-component.jsx --jsx react --open",
     "passing-props": "poi lesson3/passing-props.jsx --jsx react --open",
+    "passing-children": "poi lesson4/passing-children.jsx --jsx react --open",
     "stylesheet": "poi lesson4/stylesheet.jsx --jsx react --open",
     "event-handling": "poi lesson5/event-handling.jsx --jsx react --open",
     "holding-state": "poi lesson6/holding-state.jsx --jsx react --open",
