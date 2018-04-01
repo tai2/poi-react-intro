@@ -10,6 +10,7 @@
     "passing-props": "poi lesson3/passing-props.jsx --jsx react --open",
     "passing-children": "poi lesson4/passing-children.jsx --jsx react --open",
     "stylesheet": "poi lesson5/stylesheet.jsx --jsx react --open",
+    "stylesheet-scss": "poi lesson5/stylesheet-scss.jsx --jsx react --open",
     "event-handling": "poi lesson6/event-handling.jsx --jsx react --open",
     "holding-state": "poi lesson7/holding-state.jsx --jsx react --open",
     "conditional-rendering": "poi lesson8/conditional-rendering.jsx --jsx react --open",
@@ -27,5 +28,9 @@
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
     "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.8.3",
+    "sass-loader": "^6.0.7"
   }
 }
