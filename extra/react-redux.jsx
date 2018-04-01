@@ -36,7 +36,6 @@ function reducer(state = initialState, action) {
         ...state,
         name: action.payload.name,
       }
-      break
     case CHANGE_ADDRESS:
       return {
         ...state,
