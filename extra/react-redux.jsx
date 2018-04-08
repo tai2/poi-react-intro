@@ -86,18 +86,21 @@ function PersonInfo({ name, address }) {
   )
 }
 
-const PersonInfoHoc = connect(
-  state => ({
+function mapStateToProps(state) {
+  return {
     name: state.name,
     address: state.address,
-  }),
-  null
-)(PersonInfo)
+  }
+}
+const PersonInfoHoc = connect(mapStateToProps, null)(PersonInfo)
 
-const PersonFormHoc = connect(null, dispatch => ({
-  onNameChange: event => dispatch(createChangeName(event.target.value)),
-  onAddressChange: event => dispatch(createChangeAddress(event.target.value)),
-}))(PersonForm)
+function mapDispatchToProps(dispatch) {
+  return {
+    onNameChange: event => dispatch(createChangeName(event.target.value)),
+    onAddressChange: event => dispatch(createChangeAddress(event.target.value)),
+  }
+}
+const PersonFormHoc = connect(null, mapDispatchToProps)(PersonForm)
 
 function App() {
   return (
