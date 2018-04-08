@@ -4,7 +4,7 @@
   "description": "react example programs",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --single-quote --trailing-comma=es5 --no-semi --write '*.{js,jsx}'",
+    "prettier": "prettier --single-quote --trailing-comma=es5 --no-semi --write '**/*.{js,jsx}'",
     "hello-world": "poi lesson1/hello-world.jsx --jsx react --open",
     "first-component": "poi lesson2/first-component.jsx --jsx react --open",
     "passing-props": "poi lesson3/passing-props.jsx --jsx react --open",
