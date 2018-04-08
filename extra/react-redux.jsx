@@ -92,7 +92,7 @@ function mapStateToProps(state) {
     address: state.address,
   }
 }
-const PersonInfoHoc = connect(mapStateToProps, null)(PersonInfo)
+const PersonInfoConnected = connect(mapStateToProps, null)(PersonInfo)
 
 function mapDispatchToProps(dispatch) {
   return {
@@ -100,14 +100,14 @@ function mapDispatchToProps(dispatch) {
     onAddressChange: event => dispatch(createChangeAddress(event.target.value)),
   }
 }
-const PersonFormHoc = connect(null, mapDispatchToProps)(PersonForm)
+const PersonFormConnected = connect(null, mapDispatchToProps)(PersonForm)
 
 function App() {
   return (
     <div>
-      <PersonFormHoc />
+      <PersonFormConnected />
       <hr />
-      <PersonInfoHoc />
+      <PersonInfoConnected />
     </div>
   )
 }
